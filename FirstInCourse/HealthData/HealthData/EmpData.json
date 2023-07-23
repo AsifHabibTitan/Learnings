@@ -1,0 +1,234 @@
+[
+
+    {
+        "name" : "Adnan",
+        "team" : "Dev",
+        "heart_rate" : 88,
+        "spo2" : 98,
+        "stress" : 46
+    },
+    
+    {
+        "name" : "Akhifa",
+        "team" : "Dev",
+        "heart_rate" : 81,
+        "spo2" : 96,
+        "stress" : 46
+    },
+    
+    {
+        "name" : "Sumanohari",
+        "team" : "Dev",
+        "heart_rate" : 85,
+        "spo2" : 96,
+        "stress" : 34
+    },
+    
+    {
+        "name" : "Sahil",
+        "team" : "Dev",
+        "heart_rate" : 81,
+        "spo2" : 99,
+        "stress" : 33
+    },
+    
+    {
+        "name" : "Rishika",
+        "team" : "Dev",
+        "heart_rate" : 62,
+        "spo2" : 99,
+        "stress" : 25
+    },
+    
+    {
+        "name" : "M. Soujanya",
+        "team" : "Dev",
+        "heart_rate" : 109,
+        "spo2" : 97,
+        "stress" : 59
+    },
+    
+    {
+        "name" : "B. Anil",
+        "team" : "Dev",
+        "heart_rate" : 78,
+        "spo2" : 97,
+        "stress" : 39
+    },
+    
+    {
+        "name" : "Keerthana",
+        "team" : "Cloud",
+        "heart_rate" : 78,
+        "spo2" : 96,
+        "stress" : 46
+    },
+    
+    {
+        "name" : "Prasanna",
+        "team" : "Cloud",
+        "heart_rate" : 75,
+        "spo2" : 97,
+        "stress" : 29
+    },
+    
+    {
+        "name" : "Balakrishna",
+        "team" : "Cloud",
+        "heart_rate" : 88,
+        "spo2" : 98,
+        "stress" : 45
+    },
+    
+    {
+        "name" : "Dileep",
+        "team" : "Cloud",
+        "heart_rate" : 92,
+        "spo2" : 96,
+        "stress" : 54
+    },
+    
+    {
+        "name" : "Amreen",
+        "team" : "Cloud",
+        "heart_rate" : 94,
+        "spo2" : 98,
+        "stress" : 46
+    },
+    
+    {
+        "name" : "Amresh",
+        "team" : "Cloud",
+        "heart_rate" : 76,
+        "spo2" : 98,
+        "stress" : 41
+    },
+    
+    {
+        "name" : "Sriman",
+        "team" : "Cloud",
+        "heart_rate" : 83,
+        "spo2" : 97,
+        "stress" : 40
+    },
+    
+    {
+        "name" : "Mukesh Paramasivam",
+        "team" : "Cloud",
+        "heart_rate" : 76,
+        "spo2" : 98,
+        "stress" : 36
+    },
+    
+    {
+        "name" : "Ramesh",
+        "team" : "Cloud",
+        "heart_rate" : 117,
+        "spo2" : 97,
+        "stress" : 63
+    },
+    
+    {
+        "name" : "Sivakumar",
+        "team" : "Cloud",
+        "heart_rate" : 82,
+        "spo2" : 98,
+        "stress" : 40
+    },
+    
+    {
+        "name" : "Muralidhar",
+        "team" : "Cloud",
+        "heart_rate" : 80,
+        "spo2" : 97,
+        "stress" : 47
+    },
+    
+    {
+        "name" : "Anish",
+        "team" : "Cloud",
+        "heart_rate" : 60,
+        "spo2" : 98,
+        "stress" : 34
+    },
+    
+    {
+        "name" : "Swapnil",
+        "team" : "QA",
+        "heart_rate" : 67,
+        "spo2" : 98,
+        "stress" : 55
+    },
+    
+    {
+        "name" : "Jagadish",
+        "team" : "QA",
+        "heart_rate" : 82,
+        "spo2" : 98,
+        "stress" : 53
+    },
+    
+    {
+        "name" : "Himavarsha",
+        "team" : "QA",
+        "heart_rate" : 88,
+        "spo2" : 96,
+        "stress" : 50
+    },
+    
+    {
+        "name" : "Mounika",
+        "team" : "QA",
+        "heart_rate" : 70,
+        "spo2" : 98,
+        "stress" : 30
+    },
+    
+    {
+        "name" : "Vivek",
+        "team" : "QA",
+        "heart_rate" : 77,
+        "spo2" : 98,
+        "stress" : 42
+    },
+    
+    {
+        "name" : "Rishi",
+        "team" : "QA",
+        "heart_rate" : 102,
+        "spo2" : 99,
+        "stress" : 60
+    },
+    
+    {
+        "name" : "Azan",
+        "team" : "QA",
+        "heart_rate" : 81,
+        "spo2" : 97,
+        "stress" : 43
+    },
+    
+    {
+        "name" : "Vaibhav",
+        "team" : "QA",
+        "heart_rate" : 74,
+        "spo2" : 96,
+        "stress" : 38
+    },
+    
+    {
+        "name" : "Nayak",
+        "team" : "QA",
+        "heart_rate" : 72,
+        "spo2" : 98,
+        "stress" : 46
+    },
+    
+    {
+        "name" : "Omprakash",
+        "team" : "QA",
+        "heart_rate" : 65,
+        "spo2" : 98,
+        "stress" : 26
+    }
+]

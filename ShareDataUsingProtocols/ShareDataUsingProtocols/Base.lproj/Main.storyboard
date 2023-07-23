@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ShareDataUsingProtocols" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vendor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmH-65-CyB">
+                                <rect key="frame" x="169.33333333333334" y="69" width="54.666666666666657" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="D8m-NN-Y3A">
+                                <rect key="frame" x="95" y="120" width="203" height="32"/>
+                                <segments>
+                                    <segment title="Linware"/>
+                                    <segment title="Ido"/>
+                                    <segment title="Yawell"/>
+                                </segments>
+                                <connections>
+                                    <action selector="VendorSelector:" destination="BYZ-38-t0r" eventType="valueChanged" id="BGK-En-mic"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feature" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZu-Lo-Sb4">
+                                <rect key="frame" x="167.66666666666666" y="181" width="58" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="9eh-LI-bQs">
+                                <rect key="frame" x="16" y="232" width="361" height="32"/>
+                                <segments>
+                                    <segment title="Steps"/>
+                                    <segment title="Sleep"/>
+                                    <segment title="Heart Rate"/>
+                                    <segment title="SpO2"/>
+                                    <segment title="Temperature"/>
+                                </segments>
+                                <connections>
+                                    <action selector="FeatureSelector:" destination="BYZ-38-t0r" eventType="valueChanged" id="VrU-jj-lGE"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvS-qb-Pfn">
+                                <rect key="frame" x="196.66666666666666" y="313" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="D8m-NN-Y3A" firstAttribute="top" secondItem="qmH-65-CyB" secondAttribute="bottom" constant="30" id="3xP-21-2g7"/>
+                            <constraint firstItem="9eh-LI-bQs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7mF-sV-hIp"/>
+                            <constraint firstItem="bvS-qb-Pfn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EFz-nS-ZlM"/>
+                            <constraint firstItem="qmH-65-CyB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FQe-GW-KaA"/>
+                            <constraint firstItem="9eh-LI-bQs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="M10-Sg-QrJ"/>
+                            <constraint firstItem="kZu-Lo-Sb4" firstAttribute="top" secondItem="D8m-NN-Y3A" secondAttribute="bottom" constant="30" id="ZgL-d8-bar"/>
+                            <constraint firstItem="qmH-65-CyB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="cGF-8e-BpV"/>
+                            <constraint firstItem="D8m-NN-Y3A" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gFO-YT-GeL"/>
+                            <constraint firstItem="kZu-Lo-Sb4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ncN-ao-dQM"/>
+                            <constraint firstItem="bvS-qb-Pfn" firstAttribute="top" secondItem="9eh-LI-bQs" secondAttribute="bottom" constant="50" id="pCU-SW-lee"/>
+                            <constraint firstItem="9eh-LI-bQs" firstAttribute="top" secondItem="kZu-Lo-Sb4" secondAttribute="bottom" constant="30" id="zvF-fD-eDv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Result" destination="bvS-qb-Pfn" id="SSa-fq-70G"/>
+                        <outlet property="featureOutlet" destination="9eh-LI-bQs" id="H31-1g-EZn"/>
+                        <outlet property="vendorOutlet" destination="D8m-NN-Y3A" id="l9i-EL-7fF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-54.198473282442748" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
