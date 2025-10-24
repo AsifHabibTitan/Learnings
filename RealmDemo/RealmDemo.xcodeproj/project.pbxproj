@@ -16,6 +16,7 @@
 		91FE66292A67C40F00155899 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FE66282A67C40F00155899 /* Person.swift */; };
 		91FE662C2A67F99400155899 /* Props.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FE662B2A67F99400155899 /* Props.swift */; };
 		91FE662E2A67FA2400155899 /* Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FE662D2A67FA2400155899 /* Methods.swift */; };
+		91FE66332A711A7200155899 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FE66322A711A7200155899 /* ViewController2.swift */; };
 		BCE572A3BD5E95732E882678 /* Pods_RealmDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB99882BCE483044A7585362 /* Pods_RealmDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		91FE66282A67C40F00155899 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		91FE662B2A67F99400155899 /* Props.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Props.swift; sourceTree = "<group>"; };
 		91FE662D2A67FA2400155899 /* Methods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Methods.swift; sourceTree = "<group>"; };
+		91FE66322A711A7200155899 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		DB99882BCE483044A7585362 /* Pods_RealmDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E04B91A9053B1C6571345436 /* Pods-RealmDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmDemo.debug.xcconfig"; path = "Target Support Files/Pods-RealmDemo/Pods-RealmDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,6 +91,7 @@
 				91FE66142A67C33300155899 /* AppDelegate.swift */,
 				91FE66162A67C33300155899 /* SceneDelegate.swift */,
 				91FE66182A67C33300155899 /* ViewController.swift */,
+				91FE66322A711A7200155899 /* ViewController2.swift */,
 				91FE661A2A67C33300155899 /* Main.storyboard */,
 				91FE661D2A67C33400155899 /* Assets.xcassets */,
 				91FE661F2A67C33400155899 /* LaunchScreen.storyboard */,
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91FE66332A711A7200155899 /* ViewController2.swift in Sources */,
 				91FE66192A67C33300155899 /* ViewController.swift in Sources */,
 				91FE66152A67C33300155899 /* AppDelegate.swift in Sources */,
 				91FE66292A67C40F00155899 /* Person.swift in Sources */,
@@ -374,6 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 477USLRZ22;
@@ -391,6 +396,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tasks.RealmDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -403,6 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 477USLRZ22;
@@ -420,6 +427,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tasks.RealmDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

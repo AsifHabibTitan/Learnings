@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-Mainmodule/Pods-Mainmodule-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ZIPFoundation/ZIPFoundation.framework
+${BUILT_PRODUCTS_DIR}/iOSDFULibrary/iOSDFULibrary.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/FitCloudDFUKit/RTKLEFoundation.framework/RTKLEFoundation
+${PODS_XCFRAMEWORKS_BUILD_DIR}/FitCloudDFUKit/RTKOTASDK.framework/RTKOTASDK
+${PODS_XCFRAMEWORKS_BUILD_DIR}/FitCloudDFUKit/RTKLocalPlaybackSDK.framework/RTKLocalPlaybackSDK

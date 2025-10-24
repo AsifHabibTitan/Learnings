@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="webviewpoc" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hjJ-Uq-fX3">
+                                <rect key="frame" x="10" y="68" width="77" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="REload"/>
+                                <connections>
+                                    <action selector="reload:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U9M-gh-MMF"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lOr-MY-tLu">
+                                <rect key="frame" x="0.0" y="118" width="393" height="734"/>
+                                <color key="backgroundColor" red="0.90588235289999997" green="0.96862745100000003" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.90588235289999997" green="0.96862745100000003" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="lOr-MY-tLu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="01k-rx-84J"/>
+                            <constraint firstItem="lOr-MY-tLu" firstAttribute="top" secondItem="hjJ-Uq-fX3" secondAttribute="bottom" constant="15" id="GfY-Ec-WlU"/>
+                            <constraint firstItem="lOr-MY-tLu" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="f0S-Xc-dqW"/>
+                            <constraint firstAttribute="bottom" secondItem="lOr-MY-tLu" secondAttribute="bottom" id="kcK-08-GQM"/>
+                            <constraint firstItem="hjJ-Uq-fX3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="68" id="qb7-Ec-cTS"/>
+                            <constraint firstItem="hjJ-Uq-fX3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="wtk-dV-xfv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="subView" destination="lOr-MY-tLu" id="rkB-ey-Lhy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+</document>

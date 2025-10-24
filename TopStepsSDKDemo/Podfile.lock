@@ -1,0 +1,16 @@
+PODS:
+  - FitCloudKit (1.2.8)
+
+DEPENDENCIES:
+  - FitCloudKit
+
+SPEC REPOS:
+  trunk:
+    - FitCloudKit
+
+SPEC CHECKSUMS:
+  FitCloudKit: 5dba5646f5a895061c4ca276f493459e4d214dfb
+
+PODFILE CHECKSUM: 9565ef10a999758197c68c38ff236f06be3663a2
+
+COCOAPODS: 1.15.2

@@ -1,0 +1,25 @@
+def commonLibPods
+
+#pod 'FitCloudKit'
+#pod 'FitCloudDFUKit'
+pod 'FitCloudKit', git: 'https://github.com/htangsmart/FitCloudPro-SDK-iOS.git'
+pod 'FitCloudDFUKit', git: 'https://github.com/htangsmart/FitCloudPro-SDK-iOS.git'
+#pod 'FitCloudWFKit', git: 'https://github.com/htangsmart/FitCloudPro-SDK-iOS.git'
+end
+
+use_frameworks!
+workspace 'MainModule.xcworkspace'
+project 'MainModule.xcodeproj'
+project 'SubModule/SubModule'
+
+target 'Mainmodule' do
+  project 'MainModule'
+  commonLibPods
+
+end
+
+
+target 'SubModule' do
+  project 'SubModule/SubModule'
+  commonLibPods
+end

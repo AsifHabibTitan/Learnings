@@ -23,10 +23,10 @@ class Person: Object {
         self.name = name
         self.age = age
         
-        self.steps = getRandomNumber(100, 1000)
-        self.spo2 = getRandomNumber(80, 100)
-        self.bp = getRandomNumber(80, 120)
-        self.stress = getRandomNumber(40, 100)
+        self.steps = Methods.getRandomNumber(100, 1000)
+        self.spo2 = Methods.getRandomNumber(80, 100)
+        self.bp = Methods.getRandomNumber(80, 120)
+        self.stress = Methods.getRandomNumber(40, 100)
         
     }
     
@@ -34,3 +34,30 @@ class Person: Object {
         
     }
 }
+//class Person2: Object {
+//    @Persisted var name : String = ""
+//    @Persisted var age : Int = 44
+//    @Persisted var hr = [HeartRate]()
+//    @Persisted var steps = [Steps]()
+//    @Persisted var spo2 = [SpO2]()
+//    @Persisted var bp = [BloodPressure]()
+//    @Persisted var stress = [Stress]()
+//    
+//    var time: TimeInterval = .greatestFiniteMagnitude
+//    
+//    convenience init(name: String, age: Int) {
+//        self.init()
+//        self.name = name
+//        self.age = age
+//        
+////        self.steps = Methods.getRandomNumber(100, 1000)
+////        self.spo2 = Methods.getRandomNumber(80, 100)
+////        self.bp = Methods.getRandomNumber(80, 120)
+////        self.stress = Methods.getRandomNumber(40, 100)
+//        
+//    }
+//    
+//    func generateRandomData() {
+//        
+//    }
+//}

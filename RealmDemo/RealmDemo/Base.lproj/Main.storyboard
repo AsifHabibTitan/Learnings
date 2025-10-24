@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tBg-mQ-aik">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
@@ -66,6 +66,56 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="130" y="-2"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="LGm-DV-52k">
+            <objects>
+                <viewController storyboardIdentifier="ViewController2" id="tBg-mQ-aik" customClass="ViewController2" customModule="RealmDemo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4w1-KZ-BEp">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="53" translatesAutoresizingMaskIntoConstraints="NO" id="xox-Pu-YLk">
+                                <rect key="frame" x="149.33333333333334" y="321.66666666666669" width="94.333333333333343" height="209.00000000000006"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mvq-5Y-cjf">
+                                        <rect key="frame" x="0.0" y="0.0" width="94.333333333333329" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Generate"/>
+                                        <connections>
+                                            <action selector="generateButton:" destination="tBg-mQ-aik" eventType="touchUpInside" id="SXf-Eb-bbs"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2R0-DH-ERy">
+                                        <rect key="frame" x="0.0" y="87.333333333333314" width="94.333333333333329" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Store"/>
+                                        <connections>
+                                            <action selector="storeButton:" destination="tBg-mQ-aik" eventType="touchUpInside" id="NOl-pb-6Si"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sc-QH-5iZ">
+                                        <rect key="frame" x="0.0" y="174.66666666666663" width="94.333333333333329" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Fetch"/>
+                                        <connections>
+                                            <action selector="FetchButton:" destination="tBg-mQ-aik" eventType="touchUpInside" id="qti-Io-qWQ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rLu-uP-aPD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xox-Pu-YLk" firstAttribute="centerY" secondItem="4w1-KZ-BEp" secondAttribute="centerY" id="922-n3-HC2"/>
+                            <constraint firstItem="xox-Pu-YLk" firstAttribute="centerX" secondItem="4w1-KZ-BEp" secondAttribute="centerX" id="b6g-Ev-ltT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PXj-eO-hkK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="888" y="-2"/>
         </scene>
     </scenes>
     <resources>

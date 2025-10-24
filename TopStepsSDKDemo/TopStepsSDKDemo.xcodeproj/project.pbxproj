@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		404108E221D46F270DBC2523 /* Pods_TopStepsSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185C6A980FF5F4623B9F568D /* Pods_TopStepsSDKDemo.framework */; };
+		914AD5E62AD09ECA0041981E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914AD5E52AD09ECA0041981E /* AppDelegate.swift */; };
+		914AD5E82AD09ECA0041981E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914AD5E72AD09ECA0041981E /* SceneDelegate.swift */; };
+		914AD5EA2AD09ECA0041981E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914AD5E92AD09ECA0041981E /* ViewController.swift */; };
+		914AD5ED2AD09ECA0041981E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914AD5EB2AD09ECA0041981E /* Main.storyboard */; };
+		914AD5EF2AD09ECB0041981E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914AD5EE2AD09ECB0041981E /* Assets.xcassets */; };
+		914AD5F22AD09ECB0041981E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914AD5F02AD09ECB0041981E /* LaunchScreen.storyboard */; };
+		914AD5FB2AD0A0500041981E /* DeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914AD5F92AD0A0500041981E /* DeviceCell.swift */; };
+		914AD5FC2AD0A0500041981E /* DeviceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 914AD5FA2AD0A0500041981E /* DeviceCell.xib */; };
+		914AD5FE2AD15E0E0041981E /* FitCloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 914AD5FD2AD15E0E0041981E /* FitCloudKit.framework */; };
+		914AD6002AD28C680041981E /* Topsteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914AD5FF2AD28C680041981E /* Topsteps.swift */; };
+		914AD6022AD295A50041981E /* UserInfoDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914AD6012AD295A50041981E /* UserInfoDirectory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		185C6A980FF5F4623B9F568D /* Pods_TopStepsSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopStepsSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A17978407AC4FF22B3B6A78 /* Pods-TopStepsSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopStepsSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-TopStepsSDKDemo/Pods-TopStepsSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		914AD5E22AD09ECA0041981E /* TopStepsSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopStepsSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		914AD5E52AD09ECA0041981E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		914AD5E72AD09ECA0041981E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		914AD5E92AD09ECA0041981E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		914AD5EC2AD09ECA0041981E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		914AD5EE2AD09ECB0041981E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		914AD5F12AD09ECB0041981E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		914AD5F32AD09ECB0041981E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		914AD5F92AD0A0500041981E /* DeviceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCell.swift; sourceTree = "<group>"; };
+		914AD5FA2AD0A0500041981E /* DeviceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceCell.xib; sourceTree = "<group>"; };
+		914AD5FD2AD15E0E0041981E /* FitCloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FitCloudKit.framework; path = ../../../Documents/reflex3_ios/Pods/FitCloudKit/FitCloudKit/FitCloudKit.framework; sourceTree = "<group>"; };
+		914AD5FF2AD28C680041981E /* Topsteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topsteps.swift; sourceTree = "<group>"; };
+		914AD6012AD295A50041981E /* UserInfoDirectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserInfoDirectory.swift; path = ../../../../Downloads/BluetoothDemoApp/BLEDemoApp/UserInfoDirectory.swift; sourceTree = "<group>"; };
+		B61EC5A9E42DA8E76F2A88C4 /* Pods-TopStepsSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopStepsSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-TopStepsSDKDemo/Pods-TopStepsSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		914AD5DF2AD09ECA0041981E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914AD5FE2AD15E0E0041981E /* FitCloudKit.framework in Frameworks */,
+				404108E221D46F270DBC2523 /* Pods_TopStepsSDKDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		914AD5D92AD09ECA0041981E = {
+			isa = PBXGroup;
+			children = (
+				914AD5FD2AD15E0E0041981E /* FitCloudKit.framework */,
+				914AD5E42AD09ECA0041981E /* TopStepsSDKDemo */,
+				914AD5E32AD09ECA0041981E /* Products */,
+				D403D3919CA8A15465D9E3CE /* Pods */,
+				CB04CD76227327AB1FD7E6CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		914AD5E32AD09ECA0041981E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				914AD5E22AD09ECA0041981E /* TopStepsSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		914AD5E42AD09ECA0041981E /* TopStepsSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				914AD6012AD295A50041981E /* UserInfoDirectory.swift */,
+				914AD5E52AD09ECA0041981E /* AppDelegate.swift */,
+				914AD5E72AD09ECA0041981E /* SceneDelegate.swift */,
+				914AD5E92AD09ECA0041981E /* ViewController.swift */,
+				914AD5F92AD0A0500041981E /* DeviceCell.swift */,
+				914AD5FF2AD28C680041981E /* Topsteps.swift */,
+				914AD5FA2AD0A0500041981E /* DeviceCell.xib */,
+				914AD5EB2AD09ECA0041981E /* Main.storyboard */,
+				914AD5EE2AD09ECB0041981E /* Assets.xcassets */,
+				914AD5F02AD09ECB0041981E /* LaunchScreen.storyboard */,
+				914AD5F32AD09ECB0041981E /* Info.plist */,
+			);
+			path = TopStepsSDKDemo;
+			sourceTree = "<group>";
+		};
+		CB04CD76227327AB1FD7E6CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				185C6A980FF5F4623B9F568D /* Pods_TopStepsSDKDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D403D3919CA8A15465D9E3CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A17978407AC4FF22B3B6A78 /* Pods-TopStepsSDKDemo.debug.xcconfig */,
+				B61EC5A9E42DA8E76F2A88C4 /* Pods-TopStepsSDKDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		914AD5E12AD09ECA0041981E /* TopStepsSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914AD5F62AD09ECB0041981E /* Build configuration list for PBXNativeTarget "TopStepsSDKDemo" */;
+			buildPhases = (
+				76F9EC5FC20F9C8B77675A8A /* [CP] Check Pods Manifest.lock */,
+				914AD5DE2AD09ECA0041981E /* Sources */,
+				914AD5DF2AD09ECA0041981E /* Frameworks */,
+				914AD5E02AD09ECA0041981E /* Resources */,
+				EBF8FD0255C6EC31C5E18049 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopStepsSDKDemo;
+			productName = TopStepsSDKDemo;
+			productReference = 914AD5E22AD09ECA0041981E /* TopStepsSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		914AD5DA2AD09ECA0041981E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					914AD5E12AD09ECA0041981E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 914AD5DD2AD09ECA0041981E /* Build configuration list for PBXProject "TopStepsSDKDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 914AD5D92AD09ECA0041981E;
+			productRefGroup = 914AD5E32AD09ECA0041981E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				914AD5E12AD09ECA0041981E /* TopStepsSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		914AD5E02AD09ECA0041981E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914AD5F22AD09ECB0041981E /* LaunchScreen.storyboard in Resources */,
+				914AD5EF2AD09ECB0041981E /* Assets.xcassets in Resources */,
+				914AD5ED2AD09ECA0041981E /* Main.storyboard in Resources */,
+				914AD5FC2AD0A0500041981E /* DeviceCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76F9EC5FC20F9C8B77675A8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TopStepsSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBF8FD0255C6EC31C5E18049 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TopStepsSDKDemo/Pods-TopStepsSDKDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TopStepsSDKDemo/Pods-TopStepsSDKDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TopStepsSDKDemo/Pods-TopStepsSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		914AD5DE2AD09ECA0041981E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914AD6022AD295A50041981E /* UserInfoDirectory.swift in Sources */,
+				914AD5EA2AD09ECA0041981E /* ViewController.swift in Sources */,
+				914AD6002AD28C680041981E /* Topsteps.swift in Sources */,
+				914AD5E62AD09ECA0041981E /* AppDelegate.swift in Sources */,
+				914AD5E82AD09ECA0041981E /* SceneDelegate.swift in Sources */,
+				914AD5FB2AD0A0500041981E /* DeviceCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		914AD5EB2AD09ECA0041981E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914AD5EC2AD09ECA0041981E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		914AD5F02AD09ECB0041981E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914AD5F12AD09ECB0041981E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		914AD5F42AD09ECB0041981E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		914AD5F52AD09ECB0041981E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		914AD5F72AD09ECB0041981E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A17978407AC4FF22B3B6A78 /* Pods-TopStepsSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UE284SCM6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TopStepsSDKDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.titan.network.TopStepsSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		914AD5F82AD09ECB0041981E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B61EC5A9E42DA8E76F2A88C4 /* Pods-TopStepsSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UE284SCM6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TopStepsSDKDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.titan.network.TopStepsSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		914AD5DD2AD09ECA0041981E /* Build configuration list for PBXProject "TopStepsSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914AD5F42AD09ECB0041981E /* Debug */,
+				914AD5F52AD09ECB0041981E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914AD5F62AD09ECB0041981E /* Build configuration list for PBXNativeTarget "TopStepsSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914AD5F72AD09ECB0041981E /* Debug */,
+				914AD5F82AD09ECB0041981E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 914AD5DA2AD09ECA0041981E /* Project object */;
+}

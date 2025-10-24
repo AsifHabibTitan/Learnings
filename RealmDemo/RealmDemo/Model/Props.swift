@@ -6,41 +6,44 @@
 //
 
 import Foundation
+import RealmSwift
 
-struct Steps {
-
-    var steps: Int {
-        Methods.getRandomNumber(100, 1000)
-    }
-    var time: TimeInterval
-}
-struct SpO2 {
-
-    var spo2: Int {
-        Methods.getRandomNumber(100, 1000)
-    }
-    var time: TimeInterval
+class Steps : Object {
+    @Persisted var steps: Int = 0
+    @Persisted var time: TimeInterval = 0.0
 }
 
-struct HeartRate {
-    
-    var hr: Int {
-        Methods.getRandomNumber(50, 150)
-    }
-    var time: TimeInterval
-}
-struct Stress {
-    
-    var stress: Int {
-        Methods.getRandomNumber(100, 1000)
-    }
-    var time: TimeInterval
+class SpO2 : Object {
+    @Persisted var spo2: Int = 0
+    @Persisted var time: TimeInterval = 0.0
 }
 
-struct BloodPressure {
+class HeartRate : Object {
+    @Persisted var heartRate: Int = 0
+    @Persisted var time: TimeInterval = 0.0
+}
 
-    var bp: Int {
-        Methods.getRandomNumber(100, 1000)
-    }
-    var time: TimeInterval
+class Stress : Object {
+    @Persisted var stress: Int = 0
+    @Persisted var time: TimeInterval = 0.0
+}
+
+class BloodPressure : Object {
+//    @Persisted var bp: Int = 0
+    @Persisted var systolic : Int = 0
+    @Persisted var diastolic: Int = 0
+    @Persisted var time: TimeInterval = 0.0
+}
+
+class Category : Object {
+    @Persisted var value: Int = 0
+    @Persisted var time: TimeInterval = 0.0
+}
+
+class Data: Object {
+    @Persisted var hrData = List<HeartRate>()
+    @Persisted var stressData = List<Stress>()
+    @Persisted var spo2Data = List<SpO2>()
+    @Persisted var bpData = List<BloodPressure>()
+    @Persisted var stepsData = List<Steps>()
 }
